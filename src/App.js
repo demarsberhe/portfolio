@@ -1,6 +1,7 @@
 import {Nav} from "./components/Nav/Nav";
 import {Main} from "./components/Main/Main";
 import {Skills} from "./components/Skills/Skills";
+
 function App() {
   return (
     <div className="App">
@@ -8,7 +9,6 @@ function App() {
         <Nav/>
         <Main/>
         <Skills/>
-      
       </header>
     </div>
   );

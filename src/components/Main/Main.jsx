@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./Main.module.css";
 
 
 export function Main(){
@@ -10,13 +9,13 @@ export function Main(){
     alt="Illustration Credit: Hannah Jacobs"
   />
   
-    <div className={styles.socialMedia}>
-      <span>Social</span>
-      <a href="https://github.com/demarsberhe" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub icon"/></a>
-      <a href="https://www.linkedin.com/in/demars-berhe-63b10a164" target="_blank"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn icon"/> </a>
-      <span>Media</span>
+    <div className="socialMedia">
+      <h2 className="sectionTitle">Social Media</h2>
+        <div className="socialMediaIcons">
+          <a href="https://github.com/demarsberhe" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub icon"/></a>
+          <a href="https://www.linkedin.com/in/demars-berhe-63b10a164" target="_blank"><img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn icon"/> </a>
+        </div>
     </div>
-    
   </div>
   )
  
