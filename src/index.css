@@ -2,3 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.imgSize {
+  width: 200px;
+  height: auto;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+li{
+  margin: 5px;
+  font-size: 20px;  
+}
+
+ul{
+  margin: auto auto;
+}
+
+li:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#mainTitle{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+
+}
+.sectionTitle{
+  font-size: 50px;
+  text-align: center;
+  margin: 30px;
+}
+
+.skillsContainer{
+  margin: 30px 15px;
+
+}
+.skillsContainer img{
+  margin: 0px auto;
+  border-radius: 20px;
+  
+}
+.skillsContainer p{
+  text-align: center;
+}
+
+.socialMedia img{
+  width: 100px;
+  height: auto;
+  margin: 20px;
+  
+}
+.socialMedia img:hover{
+  opacity: 0.5;
+}
+.socialMediaIcons{
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+ 
+}

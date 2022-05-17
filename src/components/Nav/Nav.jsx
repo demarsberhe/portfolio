@@ -1,14 +1,13 @@
 import React from "react";
-import styles from "./Nav.module.css";
 export function Nav(){
   return(
-    <div className={styles.nav}>
-        <h1 id={styles.mainTitle}>Demars Berhe</h1>
+    <div className="nav">
+        <h1 id="mainTitle">Demars Berhe</h1>
         <div >
-          <ul className={styles.nav}>
+          <ul className="nav">
             <li>About</li>
             <li>Portfolio</li>
-            <li>Skills</li>
+            <li><a href="#skills">Skills</a></li>
             <li>Contact</li>
           </ul>
       </div>
