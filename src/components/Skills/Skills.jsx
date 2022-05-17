@@ -8,7 +8,7 @@ export function Skills(){
       <div className="grid grid-cols-3 gap-4 place-content-evenly skillsContainer ">
         {skillsObject.map(skill=>{
           return <div>
-            <img src={skill.imgURL} alt={skill.skillName +"logo"} className="imgSize"/>
+            <img src={skill.imgURL} alt={skill.skillName +"logo"} className="imgSize" id="skillImage"/>
             <p>{skill.skillName}</p>
         </div>
         })
