@@ -1,0 +1,16 @@
+.socialMedia img{
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+  
+}
+.socialMedia img:hover{
+  opacity: 0.5;
+}
+.socialMedia{
+  display: flex;
+  justify-content: center;
+}
+.socialMedia span{
+  margin: 10px 0px;
+}

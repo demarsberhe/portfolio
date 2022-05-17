@@ -1,0 +1,25 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  
+}
+li{
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+ul{
+  margin: auto auto;
+ 
+}
+li:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#mainTitle{
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+
+}
