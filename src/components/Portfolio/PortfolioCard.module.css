@@ -11,15 +11,17 @@
   overflow-y: scroll;
 }
 .card{
+  margin: 15px;
+}
 
+.button{
+  margin: 10px;
 }
-.btn{
-  
-}
+
 .portfolioText{
   text-align: center;
   margin: 20px;
 }
 .title{
-  text-decoration: underline;
+  font-size: 20px;
 }

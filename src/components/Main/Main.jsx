@@ -6,7 +6,7 @@ export function Main(){
     <div>
        <img
     src="https://static.wixstatic.com/media/97526f_19f5b0e33251494c9a9b4f9d16458bde~mv2.jpg/v1/fill/w_1960,h_980,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/97526f_19f5b0e33251494c9a9b4f9d16458bde~mv2.jpg"
-    alt="Illustration Credit: Hannah Jacobs"
+    alt="Illustration Credit: Hannah Jacobs" id="firstImage"
   />
   
     <div className="socialMedia">

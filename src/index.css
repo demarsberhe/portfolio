@@ -11,15 +11,31 @@
 @media (max-width: 840px){
   .portfolioContainer{
     flex-direction: column;
- 
   }
 }
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: white; 
+}
+
+#navLinks{
+  display: flex;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+#mainTitle{
+  margin-left: 10px;
+}
+
 .btn{
   border-radius: 25px;
   border: 3px solid black;
   padding: 10px;
   text-align: center;
   width: 8rem;
+  margin: 15px;
 }
 .btn-container{
   text-align: center;
@@ -41,12 +57,6 @@
 .imgSize {
   width: 200px;
   height: auto;
-}
-
-.nav{
-  display: flex;
-  justify-content: space-around;
-  
 }
 
 li{
