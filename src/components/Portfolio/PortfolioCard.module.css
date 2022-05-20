@@ -1,0 +1,25 @@
+.link:hover{
+  text-decoration: underline;
+}
+.cardImg{
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+}
+.cardImg:hover{
+  overflow-y: scroll;
+}
+.card{
+
+}
+.btn{
+  
+}
+.portfolioText{
+  text-align: center;
+  margin: 20px;
+}
+.title{
+  text-decoration: underline;
+}

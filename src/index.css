@@ -8,15 +8,34 @@
   font-family: 'Montserrat', sans-serif;
 
 }
+@media (max-width: 840px){
+  .portfolioContainer{
+    flex-direction: column;
+ 
+  }
+}
+.btn{
+  border-radius: 25px;
+  border: 3px solid black;
+  padding: 10px;
+  text-align: center;
+  width: 8rem;
+}
+.btn-container{
+  text-align: center;
+  margin: 10px;
+}
+.btn:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 #skillImage :hover{
   transform: scale(1.5);
 }
 .portfolioContainer{
   display: flex;
   justify-content: space-around;
-}
-.formField{
-  text-align: center;
 }
 
 .imgSize {
