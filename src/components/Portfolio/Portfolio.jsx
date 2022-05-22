@@ -12,21 +12,22 @@ export function Portfolio(){
             key={"project-1"}
             name={"Recipes Project"}
             summary={"Looking for a new recipe? Explore the recipe app! A React, Firebase, Next.js application."}
-            link={"https://github.com/demarsberhe/react-recipes-project/tree/firebase-implementation"}
+            code={"https://github.com/demarsberhe/react-recipes-project/tree/firebase-implementation"}
             img={recipes}
           />
           <PortfolioCard
             key={"project-2"}
             name={"Product Landing Page"}
             summary={"Replicate design of Kith product landing page. A HTML, Bootstrap and SASS application."}
-            link={"https://github.com/demarsberhe/replicate-product-page/tree/main-product"}
+            code={"https://github.com/demarsberhe/replicate-product-page/tree/main-product"}
             img={product}
+            link={"https://demarsberhe.github.io/replicate-product-page/"}
           />
           <PortfolioCard
             key={"project-3"}
             name={"Weather Application"}
             summary={"Provides upcoming weather forecast depending on the location entered by the user. A HTML, JavaScript, Bootstrap application with weather data from the AccuWeather API."}
-            link={"https://github.com/demarsberhe/recipes/tree/js-implementation"}
+            code={"https://github.com/demarsberhe/recipes/tree/js-implementation"}
             img={weather}
           />
       </div>
