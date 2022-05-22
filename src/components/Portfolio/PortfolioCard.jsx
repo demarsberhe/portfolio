@@ -10,7 +10,8 @@ export function PortfolioCard(props){
       <div className={styles.portfolioText}>
         <p className={styles.title}>{props.name}</p>
         <p>{props.summary}</p>
-        <button className="btn"><a href={props.link} target="_blank" className={styles.link}>Code</a></button>
+        <a href={props.code} target="_blank" className={styles.link}><button className="btn">Code</button></a>
+        {props.link && <a href={props.link} target="_blank" className={styles.link}><button className="btn">Link</button></a>} 
       </div>
     </div>
   )

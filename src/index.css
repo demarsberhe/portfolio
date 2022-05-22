@@ -6,6 +6,7 @@
   box-sizing: border-box;
   margin: 0px;
   font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
 
 }
 @media (max-width: 840px){
@@ -17,6 +18,8 @@
 .aboutMe{
   padding: 15px;
 }
+
+
 
 .nav{
   display: flex;

@@ -9,7 +9,6 @@ import { Contact } from "./components/Contact/Contact";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Nav/>
         <Main/>
         <About/>
@@ -17,7 +16,6 @@ function App() {
         <Portfolio/>
         <Break/>
         <Contact/>
-      </header>
     </div>
   );
 }
