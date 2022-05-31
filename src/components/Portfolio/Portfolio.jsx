@@ -14,6 +14,7 @@ export function Portfolio(){
             summary={"Looking for a new recipe? Explore the recipe app! A React, Firebase, Next.js application."}
             code={"https://github.com/demarsberhe/react-recipes-project/tree/firebase-implementation"}
             img={recipes}
+            link = {"https://adorable-zuccutto-fe6d80.netlify.app/"}
           />
           <PortfolioCard
             key={"project-2"}
