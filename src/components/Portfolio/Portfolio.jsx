@@ -28,7 +28,7 @@ export function Portfolio(){
             key={"project-3"}
             name={"Weather Application"}
             summary={"Provides upcoming weather forecast depending on the location entered by the user. A HTML, JavaScript, Bootstrap application with weather data from the AccuWeather API."}
-            code={"https://github.com/demarsberhe/recipes/tree/js-implementation"}
+            code={"https://github.com/demarsberhe/weather-application"}
             img={weather}
           />
       </div>
