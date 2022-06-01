@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.952b72ca.css",
-    "main.js": "/portfolio/static/js/main.49fca601.js",
+    "main.js": "/portfolio/static/js/main.c87c4d52.js",
     "static/media/recipes.png": "/portfolio/static/media/recipes.405faad98540dd341855.png",
     "static/media/product.png": "/portfolio/static/media/product.cefaf389ad35829d215b.png",
     "static/media/weather.png": "/portfolio/static/media/weather.d37c162001a9bba92637.png",
     "index.html": "/portfolio/index.html",
     "main.952b72ca.css.map": "/portfolio/static/css/main.952b72ca.css.map",
-    "main.49fca601.js.map": "/portfolio/static/js/main.49fca601.js.map"
+    "main.c87c4d52.js.map": "/portfolio/static/js/main.c87c4d52.js.map"
   },
   "entrypoints": [
     "static/css/main.952b72ca.css",
-    "static/js/main.49fca601.js"
+    "static/js/main.c87c4d52.js"
   ]
 }
