@@ -9,7 +9,7 @@ export let skillsObject=[
 },
 {
   skillName: "SASS",
-  imgURL:"https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
+  imgURL:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png"
 },
 {
   skillName: "JavaScript",
@@ -20,23 +20,32 @@ export let skillsObject=[
   imgURL:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1024px-React-icon.svg.png?20220125121207"
 },
 {
-  skillName: "Next,js",
-  imgURL:"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png"
+  skillName: "Gatsby",
+  imgURL:"https://user-images.githubusercontent.com/21834/34442516-fb1a1a3c-ecc2-11e7-8fe8-530435f22336.jpg"
 },
 
 {
-  skillName: "npm",
-  imgURL:"https://www.agnosticdev.com/sites/default/files/2016-01/npm-logo_1.png"
+  skillName: "Drupal",
+  imgURL:"https://www.drupal.org/files/drupal-wordmark.png"
 },
 {
   skillName: "Node.js",
-  imgURL:"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" 
+  imgURL:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1180px-Node.js_logo.svg.png" 
 },
 {
   skillName: "GitHub",
   imgURL:"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
 },
-
-
-
+{
+  skillName: "AWS",
+  imgURL:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png" 
+},
+{
+  skillName: "Jekyll",
+  imgURL:"https://upload.wikimedia.org/wikipedia/commons/4/42/Jekyll_%28software%29_Logo.png" 
+},
+{
+  skillName: "Docker",
+  imgURL:"https://www.docker.com/wp-content/uploads/2023/08/logo-guide-logos-1.svg" 
+}
 ]
